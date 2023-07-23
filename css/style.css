@@ -1,0 +1,302 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: #f0f0f0;
+  margin: 0 auto;
+}
+.container {
+  max-width: 1085px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+li {
+  list-style-type: none;
+  margin-right: 25px;
+}
+ul.normal-menu {
+  display: flex;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+header a {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  font-weight: bold;
+}
+.menu-item a:hover {
+  color: #1961cd;
+}
+.header-left,
+.logo {
+  display: flex;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+.bykva {
+  color: darkslateblue;
+}
+.about-this {
+  max-width: 640px;
+  min-height: 150px;
+  background: white;
+  padding: 15px;
+}
+.main-content {
+  margin-top: 50px;
+}
+
+.h-about {
+  font-family: "Montserrat";
+  font-size: 20px;
+  letter-spacing: 0.3px;
+}
+.p-about {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.1px;
+  margin-top: 10px;
+}
+.main-article {
+  width: 640px;
+  /* max-height: 550px; */
+  margin-top: 50px;
+  background: white;
+  padding: 15px;
+}
+.time-post {
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+}
+.zagolovok-post {
+  font-family: "Montserrat";
+  font-size: 25px;
+  letter-spacing: 0;
+  margin-top: 10px;
+}
+.description-post {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.1px;
+  margin-top: 10px;
+}
+.main-article img {
+  margin-top: 30px;
+  max-width: 100%;
+}
+.content-polza {
+  margin-top: 50px;
+  max-width: 1085px;
+  min-height: 500px;
+  background: white;
+}
+
+.select-sovet {
+  padding: 25px;
+}
+
+.select-sovet .zagolovok {
+  font-family: "Montserrat";
+  font-size: 25px;
+  letter-spacing: 0;
+  font-weight: 600;
+}
+
+.zagolovok.zagolovok-2 {
+  margin-top: 65px;
+}
+
+.select-sovet ul.article {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.1px;
+  margin-top: 30px;
+  padding: 0;
+}
+
+.select-sovet ul.article li {
+  margin-top: 15px;
+}
+
+.select-sovet ul.article li a:hover {
+  transition: 0.5s;
+  color: aquamarine;
+}
+
+footer {
+  max-width: 100%;
+  min-height: 250px;
+  background-color: #2f3c42;
+  margin-top: 100px;
+  /* margin-bottom: 255px; */ /* возможный фикс проблемы с футером */
+}
+
+footer .top-footer {
+  font-weight: 500;
+  font-family: "Montserrat", serif;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: #b3c5ce;
+  padding: 30px 0 30px 0;
+}
+
+footer .bottom-footer .text-bottom-footer {
+  font-family: "Montserrat";
+  font-size: 15px;
+  letter-spacing: 0.3px;
+  color: navajowhite;
+  padding-bottom: 30px;
+}
+
+.text-bottom-footer-contact {
+  font-family: "Montserrat";
+  font-size: 15px;
+  letter-spacing: 0.3px;
+  color: #cec0c0;
+  margin-right: 20px;
+}
+
+footer .bottom-footer {
+  display: flex;
+}
+
+.vl-1 {
+  border-left: 1.5px solid #424242;
+  height: 15px;
+  margin: 2px 10px 0 -10px;
+}
+
+.text-bottom-footer-contact a {
+  color: white;
+}
+
+.bottom-2-footer {
+  padding-bottom: 35px;
+  display: flex;
+}
+
+.bottom-2-footer .text-upominanie {
+  font-family: "Montserrat";
+  font-size: 15px;
+  letter-spacing: 0.3px;
+  color: #d9cbcb;
+}
+
+.top-footer p a {
+  color: white;
+  border-bottom: 1px;
+  text-decoration: underline;
+}
+
+.vl-2 {
+  border-left: 1.5px solid #424242;
+  height: 15px;
+  margin: 2px 0 0 10px;
+}
+
+.bottom-footer img.telega {
+  width: 30px;
+  margin: -5px 0px 0 10px;
+}
+
+.content-article h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.1px;
+  margin-top: 10px;
+}
+
+.about-this.nige {
+  margin-top: 80px;
+}
+
+.article li .mail {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 350px) {
+  .text-bottom-footer-contact,
+  .vl-1,
+  .vl-2,
+  .text-bottom-footer {
+    display: none;
+  }
+  .bottom-footer img.telega {
+    width: 35px;
+    margin: -25px 0px 7px 10px;
+  }
+  ul.normal-menu {
+    text-align: right;
+  }
+  li.menu-item {
+    margin-right: 0;
+  }
+  header {
+    padding: 0 !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  header {
+    padding-right: 0px !important;
+  }
+  ul.normal-menu {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  header a {
+    font-size: 12px;
+  }
+  .header-left .logo {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  /* menu */
+  header {
+    padding: 0 40px 0 60px;
+  }
+}
+
+@media screen and (max-width: 1085px) {
+  .main-content .main-article {
+    width: 85%;
+    margin-top: 50px !important;
+    margin: 0 auto;
+  }
+  .about-this {
+    margin: 0 auto;
+  }
+  footer {
+    padding: 50px;
+    padding-bottom: 0;
+    padding-top: 10px;
+  }
+  .about-this.nige {
+    height: auto;
+  }
+  .main-article img {
+    margin-top: 30px !important;
+    margin: 0 auto;
+    display: flex;
+  }
+}
+
+/* статьи в другом документе */
